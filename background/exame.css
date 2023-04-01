@@ -1,0 +1,47 @@
+.container-exame{
+    background-image: url("visaosaude.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    width: auto;
+}
+.container-exame .opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.container-exame .content{
+    height: auto;
+    text-align: left;
+}
+.container-exame .content .name{
+    color: white;
+    font-size: 25px;
+}
+.container-exame .content .titulo{
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.container-exame .content .text{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.container-exame .content .btn{
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid 2px #e6daa8;
+    color: #e6daa8;
+    margin-top: 40px;
+    transition: .3s;
+    margin-top: 20px;
+}
+.container-exame .content .btn:hover{
+    background-color: #e6daa8;
+    transform: scale(107%);
+    transition: .3s;
+    color: black;
+}   
